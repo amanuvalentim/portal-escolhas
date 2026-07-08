@@ -2,9 +2,7 @@
 
 int main() {
     char nome[45];
-    int classe, vida = 0;
-    int mana = 0;
-    int ataque = 0;
+    int classe, vida = 0, mana = 0, ataque = 0;
 
     printf("Ola! Voce esta no Portal das Escolhas!\nDigite seu nome: ");
     scanf("%44s", nome);
@@ -86,7 +84,7 @@ int main() {
         printf("Voce nao atribuiu nenhum atributo.\n");
     }
 
-    printf("\nSeus atributos sao:\n");
+    printf("\nSEUS ATRIBUTOS SAO:\n");
     printf("Vida: %d\n", vida);
     printf("Ataque: %d\n", ataque);
     printf("Mana: %d\n", mana);
